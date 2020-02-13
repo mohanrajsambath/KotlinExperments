@@ -1,9 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello Kotlin World")
-    val mHello = Helloworld()
-    mHello.doPrintHello()
+package FuntionalKotlinBook.properties
 
-    //Properties
+class BlueberryCupcake {
+    var flavour = "Blueberry"
+}
+
+fun main(args: Array<String>) {
+//Properties
     val myCupcake = BlueberryCupcake()
     println("My cupcake has ${myCupcake.flavour}")
     myCupcake.flavour = "Almond"
