@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Objects
+package FuntionalKotlinBook.pack7Objects
 
 fun main(args: Array<String>) {
     val expression = object {

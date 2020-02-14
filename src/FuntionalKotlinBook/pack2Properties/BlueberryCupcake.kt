@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.properties
+package FuntionalKotlinBook.pack2Properties
 
 class BlueberryCupcake {
     var flavour = "Blueberry"

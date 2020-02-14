@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Inheritence
+package FuntionalKotlinBook.pack4Inheritence
 
 class Biscuitnew(val flavour: String) {
     fun eat(): String {

@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.abstract
+package FuntionalKotlinBook.pack5Abstract
 
 /*Reference Url--https://www.programiz.com/kotlin-programming/abstract-class*/
 class Teacher(name: String) : Person(name) {

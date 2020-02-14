@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Interface
+package FuntionalKotlinBook.pack6Interface
 
 interface Bakeable {
     fun bake(): String {

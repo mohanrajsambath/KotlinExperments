@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Inheritence
+package FuntionalKotlinBook.pack4Inheritence
 
 class Biscuit(flavour: String) : BakeryGood(flavour)
 

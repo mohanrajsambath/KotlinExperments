@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Inheritence
+package FuntionalKotlinBook.pack4Inheritence
 
 class Donut(flavour: String, val topping: String) : BakeryGoodOverrideFunc(flavour) {
     override fun name(): String {

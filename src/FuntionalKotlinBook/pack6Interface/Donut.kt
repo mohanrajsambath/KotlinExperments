@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Interface
+package FuntionalKotlinBook.pack6Interface
 
 open class Donut(flavour: String, val topping: String) : BakeryGood(flavour), Fried {
     override fun name(): String {

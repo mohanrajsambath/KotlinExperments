@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Interface
+package FuntionalKotlinBook.pack6Interface
 
 abstract class BakeryGood(val flavour: String) {
 

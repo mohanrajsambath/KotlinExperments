@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.method
+package FuntionalKotlinBook.pack3Method
 
 class Cupcake(val flavour: String) {
     fun eat(): String {

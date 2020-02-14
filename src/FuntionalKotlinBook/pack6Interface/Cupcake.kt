@@ -1,4 +1,4 @@
-package FuntionalKotlinBook.Interface
+package FuntionalKotlinBook.pack6Interface
 
 
 class Cupcake(flavour: String) : BakeryGood(flavour), Bakeable {
