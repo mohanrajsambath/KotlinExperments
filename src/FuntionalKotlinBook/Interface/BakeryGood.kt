@@ -5,9 +5,9 @@ abstract class BakeryGood(val flavour: String) {
         return "nom, nom, nom... delicious $flavour ${name()}"
     }
 
-    fun bake(): String {
+    /*fun bake(): String {
         return "is hot here, isn't??"
-    }
+    }*/
 
     abstract fun name(): String
 }
