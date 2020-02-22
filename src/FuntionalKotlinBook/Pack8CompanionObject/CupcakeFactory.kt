@@ -20,11 +20,15 @@ class CupcakeFactory(flavour: String) : BakeryGood(flavour), Bakeable {
 }
 
 fun main(args: Array<String>) {
-    val factory: CupcakeFactory.Factory = CupcakeFactory.Factory
+    /*val factory: CupcakeFactory.Factory = CupcakeFactory.Factory
     val factoryAlmondCupcake = factory.almond()
     val factoryCheeseCupcake = factory.cheese()
     println("${factoryAlmondCupcake}")
-    println("${factoryAlmondCupcake}")
+    println("${factoryAlmondCupcake}")*/
+
+    val factoryCupcake: Cupcake.Companion = Cupcake.Companion
+    println("Companion Objects---=>${factoryCupcake.almond()}")
+    println("Companion Objects---=>${factoryCupcake.cheese()}")
 
 
 }
