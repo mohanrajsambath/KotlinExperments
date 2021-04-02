@@ -1,6 +1,6 @@
 package Kotlin_VenkatSubramaniam.Excercise.Part1
 
-class KotlinEssential {
+class `00KotlinEssential` {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
